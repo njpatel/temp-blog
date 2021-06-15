@@ -89,3 +89,20 @@ echo 274dc2a2-5db4-4f8c-92a3-92e33bee92a8 | axiom auth login --url="http://local
 `axiom dataset create`
 
 ![Create dataset](/assets/blog/run-axiom-desktop/axiom-demo_4.gif)
+
+- Stream data from the `http-logs` dataset & view it as it’s being ingested live:
+
+`axiom stream http-logs`
+
+![Stream dataset](/assets/blog/run-axiom-desktop/axiom-demo_6.gif)
+
+For more instructions on how to use Axiom CLI kindly check out our [documentation!](https://docs.axiom.co/reference/CLI)
+
+## Conclusion
+
+I hope this guide has helped you get a taste of Axiom right on your desktop. You’ve seen how easy it is to set up Axiom using Docker, and also performed a few tasks inside Axiom and with its awesome CLI.
+
+For more information on Axiom, visit our [website](https://www.axiom.co/) and [documentation.](https://docs.axiom.co/)
+
+If you’re ready to trial Axiom in your organization, [get in touch!](https://www.axiom.co/support/)
+
