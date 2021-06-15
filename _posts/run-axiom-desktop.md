@@ -1,7 +1,7 @@
 ---
 title: 'Run Axiom on your Desktop: A Guide'
 coverImage: '/assets/blog/run-axiom-desktop/axiom-demo.gif' 
-date: '2020-06-08'
+date: '2020-03-11'
 author:
   name: Tola Ore-Aruwaji
   picture: '/assets/blog/authors/tola.jpeg'
