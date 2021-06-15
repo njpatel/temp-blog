@@ -46,3 +46,46 @@ $ cd axiom-demo
 ```
 
 2. Start and run the demo using a single command:
+
+```shell
+docker-compose up -d
+
+```
+
+![Start the demo](/assets/blog/run-axiom-desktop/axiom-demo_1.gif)
+
+**You now have an entire Axiom deployment, including dependencies, data generators, data-shippers, etc running right on your desktop!**
+
+**Bonus:** explore the repo to see just how simple Axiom can be deployed!
+
+3. Open your browser, visit [localhost:8080](http://localhost:8080/), and log in to Axiom with the following credentials:
+
+Email: `demo@axiom.co`
+Password: `axiom-d3m0`
+
+![Axiom demo 2](/assets/blog/run-axiom-desktop/axiom-demo_2.gif)
+
+**Congratulations** 🎉 – you’ve successfully logged into Axiom on your local machine! Now it’s time to explore the UI and play with all the features!
+
+When you are finished exploring Axiom, run `docker-compose stop` to stop the stack, and `docker-compose start` to start it again.
+
+If you want to clean up, run `docker-compose down -v` to remove all containers and volumes.
+
+## Use Axiom CLI to Interact With The Demo
+
+You can also install and test the [Axiom CLI](https://github.com/axiomhq/cli) to ingest data to, and stream data from, your Axiom demo:
+
+- Install the cli on your machine using the [instructions here](https://github.com/axiomhq/cli#installation). Linux, macOS, and Windows are all supported.
+
+- Login into your axiom-demo deployment by pasting this command in your terminal:
+
+```bash
+echo 274dc2a2-5db4-4f8c-92a3-92e33bee92a8 | axiom auth login --url="http://localhost:8080" --alias="axiom-demo" --token-stdin --token-type personal -f
+```
+
+
+- Create a new dataset and ingest some data from a JSON file. You can then view this new dataset and your data in Axiom’s UI:
+
+`axiom dataset create`
+
+![Create dataset](/assets/blog/run-axiom-desktop/axiom-demo_4.gif)
