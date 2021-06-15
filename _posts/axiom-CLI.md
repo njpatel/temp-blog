@@ -56,8 +56,38 @@ Before ingesting data, create the dataset using your Ingest API Token or persona
 
 ![cli](/assets/blog/cli/ingest-new-1.gif)
 
+## Stream Data
 
+Axiom CLI makes it very easy to view your data as it’s being ingested live. This allows you to inspect individual events and watch as they are logged, just like you were running your service locally.
 
+![cli](/assets/blog/cli/stream.gif)
 
+```shell
+# Ingest the contents of a JSON file
+# into a dataset named "nginx-logs":
+$ axiom ingest nginx-logs -f nginx-logs.json
+ 
+# Ingest the contents of all files inside /var/logs/nginx
+# with extension ".log" into a dataset named "nginx-logs":
+$ axiom ingest nginx-logs -f /var/logs/nginx/*.log
+```
 
+## Manage Datasets
 
+You can quickly and easily view and manage datasets inside your Axiom deployment via Axiom CLI:
+
+![cli](/assets/blog/cli/manage_dataset.gif)
+
+## Try Axiom CLI now
+
+You can try Axiom CLI right now if you have an Axiom deployment. Check out our [GitHub repo](https://github.com/axiomhq/cli) to get started, and check out our [additional documentation](https://docs.axiom.co/reference/CLI) too.
+
+If you run into any issues or have feedback, feel free to reach out via GitHub, Slack, or support@axiom.co.
+
+For more information on Axiom CLI visit our links:
+
+- [Axiom CLI on Github](https://github.com/axiomhq/cli)
+- [Documentation](https://docs.axiom.co/reference/CLI/)
+- [AxiomFM Slack](https://www.axiom.co/support/)
+
+**Happy hacking – we can’t wait to see what you do with it!**
