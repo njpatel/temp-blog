@@ -48,4 +48,32 @@ Users have full control over the size and position of each query and the charts 
 
 ![Dashboard](/assets/blog/dashboards/dashboard4.jpeg)
 
+4. To create a new Query for your Dashboard, click on the (+) sign at the top left corner. When you do so, the edit query slide-out dialog box will appear to begin the steps of creating queries for your Dashboard experience.
 
+- Choose your dataset, you want to query
+
+- Choose the specific visualization (avg, sum, count, etc) to see charts:
+
+![Dashboard](/assets/blog/dashboards/dashboard5.gif)
+
+5. After creating your first Query in your Dashboard, you can also add more datasets and aggregations to your existing dashboards. This lets you visualize all queries in a structured view.
+
+![Dashboard](/assets/blog/dashboards/dashboard6.gif)
+
+When you are done adding queries to your dashboard, select the **Save Dashboard** button in the toolbar to save your changes.
+
+6. To access the Dashboard settings, select the icons at the top right corner of the dashboard which let you:
+
+- Share your dashboard views with everyone on the team.
+
+- Choose your specific time rate and create a custom time range for a particular or all queries in an organized widget display.
+
+- View your dashboard on a whole screen on your local machine, shared monitor, or Tv.
+
+![Dashboard](/assets/blog/dashboards/dashboard7.gif)
+
+**And there we have it!** That’s it. Done. Your dashboard has now been created on Axiom.
+
+From here, you can now add more queries and get visualization from different aggregations and also explore what else Axiom can do!
+
+You can [learn more about Axiom in the docs.](https://docs.axiom.co/) **Happy Logging!**
