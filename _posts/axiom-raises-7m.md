@@ -1,6 +1,6 @@
 ---
 title: 'Axiom Raises $7M to Cure Data Headaches'
-coverImage: '/assets/blog/working-better/'
+coverImage: '/assets/blog/axiom-raises/axiom-analytics.jpeg'
 author:
   name: Gord, Seif and Neil. 
 date: '2020-06-10'
