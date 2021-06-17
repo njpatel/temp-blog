@@ -108,16 +108,8 @@ env:
 
 ![Azure13](/assets/blog/azureaks/azure13.gif)
 
+## Merci 🎀
 
+Whew, you did it! Thanks for following along. You can read more about Axiom Kubernetes configuration on our [docs.](https://docs.axiom.co/data-shippers/kubernetes-filebeat/)
 
-
-
-
-
-
-
-
-
-
-
-
+If you have specific questions or issues configuring the file, I’d love to hear about them. [Contact us here](https://www.axiom.co/support/) or [ask a question in the Axiom Community!](https://www.axiom.co/support/)
