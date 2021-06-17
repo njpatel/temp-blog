@@ -36,3 +36,10 @@ Axiom centralizes all your logs from all your log sources, so you have complete 
 
 2. Select Kubernetes in the dashboard menu/control plane, select the Kubernetes version you want to work with (the latest version is selected by default), and choose the data center region you want to create your cluster in.
 
+![doks1](/assets/blog/authors/doks1.png)
+
+3. Customize the default node pool, you can choose the names you want to use for your node pool, select the machine type and node plan you want to work with for your cluster capacity, you can create more add additional node pool.
+
+![doks2](/assets/blog/authors/doks2.png)
+
+
