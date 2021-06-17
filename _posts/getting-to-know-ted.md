@@ -19,5 +19,9 @@ The previous project I was working on was coming to an end, and so I was looking
 
 I love working from home and I was definitely looking for a new WFH opportunity when searching for a new job. I know that the Axiom folks understood WFH and so they’d get it right, which makes all the difference. A lot of people have been forced into WFH because of the pandemic, but we’re going to find out who really embraced the change and who was forced into it in the next little while. WFH can be bad if you’re in an organization that doesn’t understand it.
 
+## What advice would you give to someone new to WFH?
+
+I like to think about it less as “Work From Home” and more as “Work From an Undisclosed Location.” Get out. Work from a park, or a back yard, or a pool, or wherever. Mix it up. Understand that you do have some flexibility and embrace that.
+
 
 
