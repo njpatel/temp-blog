@@ -104,6 +104,14 @@ env:
 
 ![Azure12](/assets/blog/azureaks/azure12.gif)
 
+11. You can also stream your logs on Axiom, this allows you to inspect individual events from Azure Kubernetes Service and watch as they are ingested live.
+
+![Azure13](/assets/blog/azureaks/azure13.gif)
+
+
+
+
+
 
 
 
