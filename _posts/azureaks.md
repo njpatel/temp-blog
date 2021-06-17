@@ -68,3 +68,48 @@ Review your configuration and click on Create
 
 This gives you the commands you need to configure and interact directly with your cluster using Azure Kubernetes Service command-line tooling. Run and paste the commands in your terminal.
 
+![Azure8](/assets/blog/azureaks/azure8.png)
+
+7. Now, let’s switch back to Axiom for a section. Head to Settings → Datasets and create a new dataset for your AKS logs.
+
+![Azure9](/assets/blog/azureaks/azure9.png)
+
+To create an ingest Token,
+
+- On the Axiom UI, under **settings,** select **ingest token.**
+- Select **Add ingest token.**
+- Enter a **name** and **description** and select **ADD.**
+- Copy the generated token to your clipboard. Once you navigate from the page, token can be seen again by selecting **Ingest Tokens.**
+
+![Azure10](/assets/blog/azureaks/azure10.png)
+
+8. Axiom uses Filebeats to forward logs from your Kubernetes cluster. Setting it up is as simple as copying the daemonset’s yaml file from the Axiom Docs and configuring it by adding the environment variable values for your Axiom host, dataset, and the ingest token.
+
+```yaml
+env:
+	- name: AXIOM_HOST
+	  value: http://cloud.axiom.co // replace with your self-host url if needed
+	- name: AXIOM_DATASET_NAME
+	  value: aks-logs
+	- name: AXIOM_INGEST_TOKEN
+	  value: xait-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+
+```
+
+9. Apply and run your `.yaml ` file using `kubectl apply -f (NAME OF FILE).yaml.` The Filebeats pods will be created and you should see them running on the Azure portal.
+
+![Azure11](/assets/blog/azureaks/azure11.png)
+
+10. Back in Axiom, you will see your logs from AKS streaming in live to the dataset you created earlier. You can now gather insights on your logs and run aggregations across all the matching data to produce various types of visualizations as well as a table of results.
+
+![Azure12](/assets/blog/azureaks/azure12.gif)
+
+
+
+
+
+
+
+
+
+
