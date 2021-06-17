@@ -59,6 +59,12 @@ Azure resource group is a container that holds related resources for your Azure 
 
 Review your configuration and click on Create
 
-![Azure5](/assets/blog/azureaks/azure6.png)
+![Azure6](/assets/blog/azureaks/azure6.png)
 
+6.  When your deployment is complete, click on connect to a cluster. 
+
+
+![Azure7](/assets/blog/azureaks/azure7.png)
+
+This gives you the commands you need to configure and interact directly with your cluster using Azure Kubernetes Service command-line tooling. Run and paste the commands in your terminal.
 
