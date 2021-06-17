@@ -1,7 +1,7 @@
 ---
 title: 'Working with Dashboards in Axiom'
 coverImage: '/assets/blog/cli/manage_datasetss.gif' 
-date: '2020-03-18'
+date: '2020-03-25'
 author:
   name: Tola Ore-Aruwaji
   picture: '/assets/blog/authors/tola.jpeg'
