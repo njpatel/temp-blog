@@ -49,5 +49,16 @@ Azure resource group is a container that holds related resources for your Azure 
 
 ![Azure4](/assets/blog/azureaks/azure4.png)
 
+5. Create your Kubernetes Cluster.
+
+- Enter your Kubernetes cluster name
+- Choose your Region
+- Select the Kubernetes version you want to use
+
+![Azure5](/assets/blog/azureaks/azure5.png)
+
+Review your configuration and click on Create
+
+![Azure5](/assets/blog/azureaks/azure6.png)
 
 
